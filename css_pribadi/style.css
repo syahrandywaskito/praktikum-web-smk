@@ -1,0 +1,90 @@
+/*font external*/
+@font-face{
+	font-family: bento;
+	src: url('../font/Bento.otf');
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+/**/
+
+/*button*/
+.btn{
+	background-color: #ff1b0a;
+}
+.btn:hover{
+	background-color: white;
+	color: black;
+}
+/*table */
+.table-container{
+	margin-top: 4rem;
+}
+/**/
+
+/*navbar*/
+.navbar{
+	background-color: #ff1b0a;
+}
+.navbar-brand, .nav-link{
+	color: white;
+}
+.navbar-brand{
+	font-family: bento;
+}
+
+.navbar-brand:hover, .nav-link:hover{
+	color: black;
+	transition: 0.3s;
+}
+/**/
+
+/* Jumbotron */
+header{
+	background-image: linear-gradient(to bottom, #ff1b0a, white);
+}
+.header-text{
+	margin-top: 2.5rem;
+}
+header div a{
+	color: white;
+}
+header div a:hover{
+	color: black;
+}
+/**/
+
+/*footer*/
+.footer{
+	display: flex;
+
+}
+.copyright{
+	text-align: center;
+	padding: 20px;
+	background-color: #ff1b0a;
+	color: white;
+}
+.copyright a{
+	color: white;
+}
+.copyright a:hover{
+	color: black;
+	transition: 0.3s;
+}
+/**/
+
+/*Biodata*/
+.biodata-container .container .jumbotron{
+	margin: 6rem 0;
+}
+/**/
+
+/*link*/
+.add-link{
+	color: #ff1b0a;
+}
+.add-link:hover{
+	color: black;
+}
+/*
